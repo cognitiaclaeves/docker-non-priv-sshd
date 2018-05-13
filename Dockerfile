@@ -31,6 +31,6 @@ WORKDIR /home/jae
 
 EXPOSE 2222
 
-# Run in background, with debug log available to docker logs
-CMD ["/usr/sbin/sshd", "-dD"]
+# Run in background
+CMD ["/usr/sbin/sshd", "-D"]
 
